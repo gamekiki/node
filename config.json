@@ -1,0 +1,30 @@
+{
+  "app": {
+    "title": "--- KIKI API SERVER ---",
+    "port": 3000
+  },
+  "mysql_dev": {
+    "connectionLimit" : 50,
+    "host"            : "hostname",
+    "port"            : 3306,
+    "user"            : "user",
+    "password"        : "password",
+    "database"        : "database",
+    "timezone"        : "timezone"
+  },
+  "mysql_live": {
+    "connectionLimit" : 50,
+    "host"            : "hostname",
+    "port"            : 8806,
+    "user"            : "user",
+    "password"        : "password",
+    "database"        : "database",
+    "timezone"        : "timezone"
+  },
+  "smtp": {
+    "host": "localhost",
+    "ssl": false,
+    "from": "no-reply@notfound.com"
+  },
+  "loglevel": "DEBUG"
+}
